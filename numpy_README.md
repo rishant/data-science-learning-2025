@@ -1,20 +1,26 @@
-# Prequisites
-1. Python installation
+## Prequisites
+
+    1. Python installation
 
 
-## Step for matplotlib installation:
-pip install numpy
-pip install pandas
-pip install matplotlib
+### Python Modules installation:
 
-## Step for jupyter notebook installation:
-pip install notebook
-
-## Step for Run jupyter notebook:
-jupyter notebook
+    pip install numpy
+    pip install pandas
+    pip install matplotlib
 
 
-## NumPy Topics
+### Step for jupyter notebook installation:
+
+    pip install notebook
+
+
+### Step for Run jupyter notebook:
+
+    jupyter notebook
+
+
+### NumPy Topics
 
     1. Introduction to NumPy
     2. NumPy Array Creation

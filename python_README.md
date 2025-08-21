@@ -137,52 +137,52 @@ cart = ["apple", "banana", "milk"]
 for item in cart:
     print(item)
 
-    # Print item prices in a shopping cart
-    prices = [30, 20, 50]
-    for price in prices:
-        print("Price:", price)
+# Print item prices in a shopping cart
+prices = [30, 20, 50]
+for price in prices:
+    print("Price:", price)
 
-    # Use while loop to process items until cart is empty
-    cart = ["apple", "banana", "milk"]
-    while cart:
-        item = cart.pop()
-        print("Removed:", item)
+# Use while loop to process items until cart is empty
+cart = ["apple", "banana", "milk"]
+while cart:
+    item = cart.pop()
+    print("Removed:", item)
 
-    # Loop with enumerate to get index and value
-    for idx, item in enumerate(["apple", "banana", "milk"]):
-        print(f"Item {idx}: {item}")
+# Loop with enumerate to get index and value
+for idx, item in enumerate(["apple", "banana", "milk"]):
+    print(f"Item {idx}: {item}")
 
-    # Loop with range for fixed number of iterations
-    for i in range(3):
-        print("Iteration:", i)
+# Loop with range for fixed number of iterations
+for i in range(3):
+    print("Iteration:", i)
 
-    # Nested loops for a grid (e.g., seating chart)
-    rows = 2
-    cols = 3
-    for r in range(rows):
-        for c in range(cols):
-            print(f"Seat ({r}, {c})")
+# Nested loops for a grid (e.g., seating chart)
+rows = 2
+cols = 3
+for r in range(rows):
+    for c in range(cols):
+        print(f"Seat ({r}, {c})")
 
-    # Using break and continue in loops
-    for item in ["apple", "banana", "milk"]:
-        if item == "banana":
-            continue  # Skip banana
-        print("Selected:", item)
-        if item == "milk":
-            break  # Stop after milk
+# Using break and continue in loops
+for item in ["apple", "banana", "milk"]:
+    if item == "banana":
+        continue  # Skip banana
+    print("Selected:", item)
+    if item == "milk":
+        break  # Stop after milk
 
-    # List comprehension inside a loop for advanced filtering
-    numbers = [1, 2, 3, 4, 5]
-    evens = [n for n in numbers if n % 2 == 0]
-    print("Even numbers:", evens)
+# List comprehension inside a loop for advanced filtering
+numbers = [1, 2, 3, 4, 5]
+evens = [n for n in numbers if n % 2 == 0]
+print("Even numbers:", evens)
 
-    # Loop with else clause
-    for item in ["apple", "banana"]:
-        if item == "orange":
-            print("Found orange!")
-            break
-    else:
-        print("Orange not found in cart.")
+# Loop with else clause
+for item in ["apple", "banana"]:
+    if item == "orange":
+        print("Found orange!")
+        break
+else:
+    print("Orange not found in cart.")
 ```
 
 ## 5. Functions
