@@ -2,5 +2,5 @@
 
 
 - [Jupyter Notebook Setup](./jupyter_README.md)
-- [Python Learning](./python_README.md)
-- [Numpy Learning](./numpy_README.md)
+- [Python Learning](./python/python_README.md)
+- [Numpy Learning](./numpy/numpy_README.md)
