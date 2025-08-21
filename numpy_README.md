@@ -10,17 +10,7 @@
     pip install matplotlib
 
 
-### Step for jupyter notebook installation:
-
-    pip install notebook
-
-
-### Step for Run jupyter notebook:
-
-    jupyter notebook
-
-
-### NumPy Topics
+## NumPy Topics
 
     1. Introduction to NumPy
     2. NumPy Array Creation
