@@ -17,21 +17,21 @@
 
     If you want to run all cells of a notebook directly from terminal without opening the UI, use nbconvert:
 
-    cmd:\> jupyter nbconvert --to notebook --execute my_notebook.ipynb
+    cmd:\> jupyter nbconvert --to notebook --execute python_array.ipynb
 
 
     👉 This executes all cells and saves the results inside the same .ipynb file.
     If you want a separate executed output file:
 
-    cmd:\> jupyter nbconvert --to notebook --execute my_notebook.ipynb --output executed_notebook.ipynb
+    cmd:\> jupyter nbconvert --to notebook --execute python_array.ipynb --output executed_notebook.ipynb
     
 > How to Convert Notebook to Python Script
 
     You can convert .ipynb to .py (plain Python script) like this:
 
-    cmd:\> jupyter nbconvert --to script my_notebook.ipynb
+    cmd:\> jupyter nbconvert --to script python_array.ipynb
 
-    This creates my_notebook.py, containing all code cells. (Markdown/comments are turned into Python comments.)
+    This creates python_array.py, containing all code cells. (Markdown/comments are turned into Python comments.)
 
 ✅ Summary
 
@@ -40,7 +40,7 @@
     Start UI: jupyter notebook
 
     Run notebook headlessly:
-    jupyter nbconvert --to notebook --execute my_notebook.ipynb
+    jupyter nbconvert --to notebook --execute python_array.ipynb
 
     Convert to Python script:
-    jupyter nbconvert --to script my_notebook.ipynb
+    jupyter nbconvert --to script python_array.ipynb
